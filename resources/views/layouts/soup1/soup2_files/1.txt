@@ -1,0 +1,41 @@
+animate.min.css
+animsition.min.css
+animsition.min.js.Без названия
+bootstrap.min.css
+bootstrap.min.js.Без названия
+close.svg
+core.js.Без названия
+dropdown-about.jpg
+dropdown-more.jpg
+font-awesome.min.css
+jquery.appear.js.Без названия
+jquery.localScroll.min.js.Без названия
+jquery.mb.YTPlayer.min.js.Без названия
+jquery.min.js.Без названия
+jquery.scrollTo.min.js.Без названия
+jquery.validate.min.js.Без названия
+logo-horizontal-dark.svg
+logo-light.svg
+menu-title-burgers.jpg
+menu-title-desserts.jpg
+menu-title-drinks.jpg
+menu-title-pasta.jpg
+menu-title-pizza.jpg
+menu-title-sushi.jpg
+modal-add.jpg
+product-burger.jpg
+product-chicken-burger.jpg
+product-chicken-wings.jpg
+product-pasta.jpg
+product-pizza.jpg
+product-sushi.jpg
+settings.svg
+skrollr.min.js.Без названия
+slick.css
+slick.min.js.Без названия
+styleswitcher.css
+styleswitcher.js
+tether.min.js.Без названия
+theme-beige.min.css
+themify-icons.css
+twitterFetcher_min.js.Без названия
