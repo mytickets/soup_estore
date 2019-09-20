@@ -87,22 +87,28 @@ class ImportImage extends Command {
             }
 
             echo "\n\n";
+            // $arr = array('h' => $height, 'w' => $width );
+            $arrs = array();
             foreach ($imgs as $ikey=> $im) {
                 if (strpos(basename($im), '.') !== false) 
                 {
 
 
-                    // // list($width, $height) = getimagesize($im);
+                    list($width, $height) = getimagesize($im);
+                    // echo $width."x".$height." ".$width/$height;
+
+                    $arr = array( 'i' => $im, 'h' => $height, 'w' => $width, 'z' => round($width/$height, 1), 'id' => $p['id'] );
+                    var_dump($arr);
+                    $arrs[] = $arr;
+
                     // // W H
                     // list($width, $height) = getimagesize($im);
-                    // // $arr = array('h' => $height, 'w' => $width );
-                    // // print_r($im);
+                    // print_r($im);
                     // // print_r("\n");
-                    // echo $width."x".$height." ".$width/$height;
                     // if (($width/$height)>1.9) {
                     //     echo "\e[95m#($width/$height)>1.9 \e[39m".$im."\n";
                     // } else {
-                        echo "\e[95m# \e[39m".$im."\n";
+                    echo "\e[95m# \e[39m".$im."\n";
                     // }
                     print_r("\n");
 
@@ -112,7 +118,7 @@ class ImportImage extends Command {
                             continue;
                         }
             }
-
+            var_dump($arrs);
             $json1 = json_encode(  $imgs );
             // var_dump($imgs);
             $p->remote_images=$json1;
